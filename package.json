@@ -1,0 +1,23 @@
+{
+  "name": "Dr. Molly Simon's Research Group Website",
+  "version": "1.0.0",
+  "description": "Dr. Molly Simon's research group website. Built with Hugo and Netlify CMS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nciemniak/molly-simon-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nciemniak/molly-simon-site/issues"
+  },
+  "homepage": "https://github.com/nciemniak/molly-simon-site#readme",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
