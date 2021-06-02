@@ -1,7 +1,43 @@
-@import "node_modules/bootstrap/scss/bootstrap-grid";
 
-/* Test Styles */
-h1 {
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
+/* Bootstrap prereqs */
+@import "~bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
+// @import "node_modules/bootstrap/scss/utilities";
+// /* Bootstrap core imports */
+// @import "node_modules/bootstrap/scss/bootstrap-grid";
+// @import "node_modules/bootstrap/scss/nav";
+// @import "node_modules/bootstrap/scss/navbar";
+
+/* Colors */
+$color-text: #F7F0F3;
+$color-gold: #DBBA51;
+
+/* Site-wide styles */
+body {
+  font-family: Karla, sans-serif;
+  color: $color-text;
+  background: url(../images/night-sky-bg-compressed.jpg) no-repeat center fixed;
+  background-size: cover;
 }
+
+#page-wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* eliminate bootstrap container margin/padding */
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* co-opt the bold tag for color highlights */
+b {
+  font-weight: inherit;
+  color: $color-gold;
+}
+
+@import "nav";
+@import "home";
+
