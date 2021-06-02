@@ -1,12 +1,12 @@
 
 /* Bootstrap prereqs */
-@import "../../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/functions";
 // @import "node_modules/bootstrap/scss/variables";
 // @import "node_modules/bootstrap/scss/mixins";
 // @import "node_modules/bootstrap/scss/utilities";
 
 /* Bootstrap core imports */
-@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+//@import "../../node_modules/bootstrap/scss/bootstrap-grid";
 // @import "node_modules/bootstrap/scss/nav";
 // @import "node_modules/bootstrap/scss/navbar";
 
@@ -27,7 +27,7 @@ body {
   padding-right: 60px;
 }
 
-/* eliminate bootstrap container margin/padding */
+/* eliminate bootstrap container margin & padding */
 .container {
   margin: 0px;
   padding: 0px;
