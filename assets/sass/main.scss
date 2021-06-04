@@ -1,6 +1,6 @@
 
 /* Bootstrap prereqs */
-@import "../../node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/utilities";
@@ -13,18 +13,29 @@
 /* Colors */
 $color-text: #F7F0F3;
 $color-gold: #DBBA51;
+$color-background: #050410;
+
+/* Sizes */
+$base-margin: 90px;
+$base-margin-lg: 60px;
 
 /* Site-wide styles */
 body {
   font-family: Karla, sans-serif;
   color: $color-text;
-  background: url(../images/night-sky-bg-compressed.jpg) no-repeat center fixed;
-  background-size: cover;
+  margin: 0px;
+  height: 100%; // for landing image
+  max-height: 100%; // for landing image
+}
+
+html {
+  height: 100%; // for landing image
+  max-height: 100%; // for landing image
 }
 
 #page-wrapper {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: $base-margin;
+  padding-right: $base-margin;
 }
 
 /* eliminate bootstrap container margin & padding */
@@ -37,6 +48,13 @@ body {
 b {
   font-weight: inherit;
   color: $color-gold;
+}
+
+// Bootstrap XL
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 53px;
+  }
 }
 
 @import "nav";
