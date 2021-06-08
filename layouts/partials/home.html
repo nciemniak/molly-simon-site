@@ -3,25 +3,68 @@
   <div id="landing-section-content">
     <div class="container">
       <div class="row">
-        <div class="col-11 col-xl-10">
+        <div class="col-lg-11">
           <h1>Lorem ipsum dolor sit amet,
             consectetur <b>Arizona State University</b> eiusmod. Tempor incididunt ut labore et dolore magna aliqua.
           </h1>
         </div>
-        <div class="col">
+        <div class="col-lg-1">
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="page-wrapper">
-  Rhoncus est pellentesque elit ullam
-  corper dignissim cras tincidunt 
-  lobortis. Volutpat sed cras ornare arcu 
-  dui vivamus arcu felis. Nisi porta lorem mollis aliquam ut porttitor leo a. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo. Etiam sit amet nisl purus in. 
-  
-  Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Malesuada pellentesque elit eget gravida cum sociis natoque. Malesuada proin libero nunc consequat interdum varius sit amet. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Tempus quam pellentesque nec nam aliquam sem et tortor. Risus pretium quam vulputate dignissim suspendisse in est ante in. Nunc faucibus a pellentesque sit amet.
-  
-  Vitae aliquet nec ullamcorper sit amet risus. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Vestibulum morbi blandit cursus risus at ultrices. At augue eget arcu dictum.
+<div id="home-page-wrapper" class="page-wrapper">
+  <div id="about-preview-section" class="container">
+    <div class="row">
+      <div id="about-preview-image" class="col-lg-6">
+        <img id="molly-with-rock-img" src="images/molly-rock.jpg">
+      </div>
+      <div id="about-preview-content" class="col-lg-6">
+        <h2 id="about-preview-intro">
+          Consequat <b>interdum varius</b> sit amet mattis vulputate. Iterdum varius sit amet mattis. 
+        </h2>
+        <hr class="mint-color-background">
+        <p id="about-preview-body">
+          Dictum non consectetur a erat nam at lectus urna. Mauris sit amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Sem viverra aliquet eget sit amet tellus cras. Amet risus nullam eget felis eget nunc.
+        </p>
+        <button type="button">READ MORE</button>
+      </div> 
+    </div>
+  </div>
+
+  <div id="home-page-cards" class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="icon-square mint-color-background">
+            <img id="research-icon" class="card-icon" src="svg/research-icon.svg">
+          </div>
+          <h2 class="card-header">Research</h2>
+          <p>Erat velit scelerisque in dictum. Consectetur adipiscing elit ut aliquam purus sit amet.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="icon-square gold-color-background">
+            <img id="teaching-icon" class="card-icon" src="svg/teaching-icon.svg">
+          </div>
+          <h2 class="card-header">Teaching</h2>
+          <p>Pellentesque diam volutpat commodo sed egestas egestas.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="icon-square lavender-color-background">
+            <img id="curricular-materials-icon" class="card-icon" src="svg/curricular-materials-icon.svg">
+          </div>
+          <h2 class="card-header">Curricular Materials</h2>
+          <p>Pretium quam vulputate dignissim suspendisse in est ante in nibh.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+{{ partial "footer.html" . }}

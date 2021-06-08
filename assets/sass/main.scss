@@ -1,25 +1,43 @@
 
-/* Bootstrap prereqs */
+/**********
+ * IMPORTS 
+ **********/
+//Bootstrap prereqs
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/utilities";
 
-/* Bootstrap core imports */
+// Bootstrap core imports
 @import "node_modules/bootstrap/scss/bootstrap-grid";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
 
-/* Colors */
+
+/*************
+ * VARIABLES
+ *************/
+ /* Colors */
 $color-text: #F7F0F3;
+$color-text-muted: #E8DEE2;
 $color-gold: #DBBA51;
+$color-mint: #D0FCB3;
+$color-lavender: #BC88C8;
 $color-background: #050410;
+$color-card-bg: #1B3236;
+$color-card-text: #C3B8BD;
+$color-footer-divider: #495351;
 
 /* Sizes */
-$base-margin: 90px;
-$base-margin-lg: 60px;
+// left/right margins across site
+$base-margin: 90px; 
+$base-margin-sm: 60px;
+$base-margin-xs: 30px;
 
-/* Site-wide styles */
+
+/******************
+ * SITE WIDE STYLES
+ ******************/
 body {
   font-family: Karla, sans-serif;
   color: $color-text;
@@ -31,29 +49,175 @@ body {
 html {
   height: 100%; // for landing image
   max-height: 100%; // for landing image
+  background-color: $color-background;
 }
 
-#page-wrapper {
-  padding-left: $base-margin;
-  padding-right: $base-margin;
+// provide a content wrapper with margins and background color
+.page-wrapper {
+  padding: 0px $base-margin-xs;
+  background-color: $color-background;
 }
 
-/* eliminate bootstrap container margin & padding */
-.container {
-  margin: 0px;
-  padding: 0px;
-}
-
-/* co-opt the bold tag for color highlights */
+// co-opt the bold tag for color highlights
 b {
   font-weight: inherit;
   color: $color-gold;
 }
 
+.mint-color {
+  color: $color-mint;
+}
+
+.mint-color-background {
+  background-color: $color-mint;
+}
+
+.gold-color-background {
+  background-color: $color-gold;
+}
+
+.lavender-color-background {
+  background-color: $color-lavender;
+}
+
+button {
+  background: none;
+  border-color: $color-mint; 
+  color: $color-mint;
+  font-family: Karla, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 50px;
+  border-radius: 8px;
+}
+
+/* Card component */
+.card {
+  border-radius: 13px;
+  background: $color-card-bg;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.icon-square {
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.card-icon {
+  stroke: $color-card-bg;
+}
+
+.card-header {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.card p {
+  font-size: 19px;
+  line-height: 1.7;
+  color: $color-card-text;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+#footer-divider {
+  width: 96%;
+  height: 1px;
+  background-color: $color-footer-divider;
+  border: 0px none;
+}
+
+#asu-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+#copyright {
+  font-size: 13px;
+  color: $color-text-muted;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+// Bootstrap S
+@media (min-width: 576px) { 
+  .page-wrapper {
+    padding: 0px $base-margin-sm;
+  }
+
+  #copyright {
+    font-size: 15px;
+  }
+}
+
+// Bootstrap M  
+@media (min-width: 768px) {
+  button {
+    font-size: 25px;
+  }
+
+  .card {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .card-header {
+    font-size: 28px;
+  }
+
+  .card p {
+    font-size: 21px;
+  }
+
+  #copyright {
+    font-size: 18px;
+  }
+}
+
+// Bootstrap L
+@media (min-width: 992px) {
+  .card-header {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  #copyright-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #copyright {
+    font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 4px;
+  }
+}
+
 // Bootstrap XL
 @media (min-width: 1200px) {
-  h1 {
-    font-size: 53px;
+  .page-wrapper {
+    padding: 0px $base-margin;
+  }
+
+  #copyright {
+    font-size: 18px;
   }
 }
 

@@ -1,10 +1,11 @@
 .navbar {
-  padding: 40px $base-margin-lg;
+  padding: 8px $base-margin-xs;
   z-index: 100;
 }
 
 .page-nav-links-section {
   text-align: right;
+  display: none;
 }
 
 .page-nav-link {
@@ -20,8 +21,26 @@ a.nav-title {
   font-weight: bold;
 }
 
+#mobile-nav-menu-icon {
+  width: 60px;
+}
+
+// Bootstrap S
+@media (min-width: 576px) { 
+  .navbar {
+    padding: 40px $base-margin-sm;
+  }
+}
+
 // Bootstrap L
 @media (min-width: 992px) {
+  .page-nav-links-section {
+    display: block;
+  }
+
+  #mobile-nav-menu-icon {
+    display: none;
+  }
 }
 
 
