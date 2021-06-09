@@ -4,19 +4,22 @@ backend:
 media_folder: static/uploads
 public_folder: /uploads
 collections:
-  - name: 'home'
-    label: 'Home'
-    file: 'content/_index.md'
+  - name: 'pages'
+    label: 'Pages'
     editor:
       preview: false
-    fields:
-      - { label: 'Site Intro', name: 'landing_intro', widget: markdown }
-      - { label: 'About Preview', name: 'about_preview', widget: list, fields: [
-            { label: 'About Preview Intro', name: 'about_preview_intro', widget: markdown },
-            { label: 'About Preview Body', name: 'about_preview_body', widget: markdown }
-        ]}
-      - { label: 'Navigation Cards', name: 'navigation_cards', widget: list, fields: [
-            { label: 'Research Blurb', name: 'research_blurb', widget: string },
-            { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
-            { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
-        ]}
+    files: 
+      file: 'content/_index.md'
+      label: 'Home'
+      name: 'home'
+      fields:
+        - { label: 'Site Intro', name: 'landing_intro', widget: markdown }
+        - { label: 'About Preview', name: 'about_preview', widget: list, fields: [
+              { label: 'About Preview Intro', name: 'about_preview_intro', widget: markdown },
+              { label: 'About Preview Body', name: 'about_preview_body', widget: markdown }
+          ]}
+        - { label: 'Navigation Cards', name: 'navigation_cards', widget: list, fields: [
+              { label: 'Research Blurb', name: 'research_blurb', widget: string },
+              { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
+              { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
+          ]}
