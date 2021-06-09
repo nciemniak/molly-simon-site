@@ -1,18 +1,22 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+media_folder: static/uploads
+public_folder: /uploads
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  - name: 'home'
+    label: 'Home'
+    folder: 'content/_index.md'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Site Intro', name: 'landing_intro', widget: markdown }
+      - { label: 'About Preview', name: 'about_preview', widget: list, fields: [
+            { label: 'About Preview Intro', name: 'about_preview_intro', widget: markdown },
+            { label: 'About Preview Body', name: 'about_preview_body', widget: markdown }
+        ]}
+      - { label: 'Navigation Cards', name: 'navigation_cards', widget: list, fields: [
+            { label: 'Research Blurb', name: 'research_blurb', widget: string },
+            { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
+            { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
+        ]}
