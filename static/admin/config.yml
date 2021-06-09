@@ -14,11 +14,11 @@ collections:
         name: 'home'
         fields:
           - { label: 'Site Intro', name: 'landing_intro', widget: markdown }
-          - { label: 'About Preview', name: 'about_preview', widget: list, fields: [
+          - { label: 'About Preview', name: 'about_preview', widget: object, fields: [
                 { label: 'About Preview Intro', name: 'about_preview_intro', widget: markdown },
                 { label: 'About Preview Body', name: 'about_preview_body', widget: markdown }
             ]}
-          - { label: 'Navigation Cards', name: 'navigation_cards', widget: list, fields: [
+          - { label: 'Navigation Cards', name: 'navigation_cards', widget: object, fields: [
                 { label: 'Research Blurb', name: 'research_blurb', widget: string },
                 { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
                 { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
