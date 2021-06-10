@@ -1,8 +1,8 @@
 ---
-landing_intro: Lorem ipsum dolor sit amet, consectetur **Arizona State
-  University** eiusmod. Tempor incididunt ut labore et dolore magna aliquat.
+landing_intro: Lorem ipsum dolor sit amet, consectetur **Arizona State
+  University** eiusmod. Tempor incididunt ut labore et dolore magna aliqua.
 about_preview:
-  about_preview_intro: Consequat **interdum varius** sit amet mattis vulputate.
+  about_preview_intro: Consequat **interdum varius** sit amet mattis vulputate.
     Iterdum varius sit amet mattis.
   about_preview_body: Dictum non consectetur a erat nam at lectus urna. Mauris sit
     amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor.

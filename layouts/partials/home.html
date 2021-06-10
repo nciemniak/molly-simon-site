@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11">
-          <h1>Lorem ipsum dolor sit amet,
-            consectetur <b>Arizona State University</b> eiusmod. Tempor incididunt ut labore et dolore magna aliqua.
+          <h1>
+            {{ .Params.landing_intro | markdownify }}
           </h1>
         </div>
         <div class="col-lg-1">
@@ -23,11 +23,11 @@
       </div>
       <div id="about-preview-content" class="col-lg-6">
         <h2 id="about-preview-intro">
-          Consequat <b>interdum varius</b> sit amet mattis vulputate. Iterdum varius sit amet mattis. 
+          {{ .Params.about_preview.about_preview_intro | markdownify }}
         </h2>
         <hr class="mint-color-background">
         <p id="about-preview-body">
-          Dictum non consectetur a erat nam at lectus urna. Mauris sit amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Sem viverra aliquet eget sit amet tellus cras. Amet risus nullam eget felis eget nunc.
+          {{ .Params.about_preview.about_preview_body | markdownify }}
         </p>
         <button type="button">READ MORE</button>
       </div> 
@@ -42,7 +42,7 @@
             <img id="research-icon" class="card-icon" src="svg/research-icon.svg">
           </div>
           <h2 class="card-header">Research</h2>
-          <p>Erat velit scelerisque in dictum. Consectetur adipiscing elit ut aliquam purus sit amet.</p>
+          <p>{{ .Params.navigation_cards.research_blurb }}</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -51,7 +51,7 @@
             <img id="teaching-icon" class="card-icon" src="svg/teaching-icon.svg">
           </div>
           <h2 class="card-header">Teaching</h2>
-          <p>Pellentesque diam volutpat commodo sed egestas egestas.</p>
+          <p>{{ .Params.navigation_cards.teaching_blurb }}</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -60,7 +60,7 @@
             <img id="curricular-materials-icon" class="card-icon" src="svg/curricular-materials-icon.svg">
           </div>
           <h2 class="card-header">Curricular Materials</h2>
-          <p>Pretium quam vulputate dignissim suspendisse in est ante in nibh.</p>
+          <p>{{ .Params.navigation_cards.curr_materials_blurb }}</p>
         </div>
       </div>
     </div>

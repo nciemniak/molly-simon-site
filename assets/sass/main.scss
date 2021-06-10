@@ -58,8 +58,8 @@ html {
   background-color: $color-background;
 }
 
-// co-opt the bold tag for color highlights
-b {
+// co-opt the strong tag for color highlights
+strong {
   font-weight: inherit;
   color: $color-gold;
 }
