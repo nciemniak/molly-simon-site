@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
-  <body>
-    {{ partial "home.html" . }}
-  </body>
-</html>
+{{ define "main" }}
+
+{{ partial "home.html" . }}
+
+{{ end }}
