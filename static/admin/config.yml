@@ -23,3 +23,9 @@ collections:
                 { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
                 { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
             ]}
+      - file: 'content/about/index.md'
+        label: 'About'
+        name: 'about'
+        fields:
+          - { label: 'About Intro', name: 'about_intro', widget: markdown }
+          - { label: 'About Body', name: 'about_body', widget: markdown }

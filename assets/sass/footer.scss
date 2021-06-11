@@ -1,0 +1,65 @@
+#footer .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#footer-divider {
+  width: 96%;
+  height: 1px;
+  background-color: $color-footer-divider;
+  opacity: 70%;
+  border: 0px none;
+}
+
+#asu-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+#copyright {
+  font-size: 13px;
+  color: $color-text-muted;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+// Bootstrap S
+@media (min-width: 576px) { 
+  #copyright {
+    font-size: 15px;
+  }
+}
+
+// Bootstrap M  
+@media (min-width: 768px) {
+  #copyright {
+    font-size: 18px;
+  }
+}
+
+// Bootstrap L
+@media (min-width: 992px) {
+  #copyright-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  #copyright {
+    font-size: 15px;
+    padding-bottom: 0px;
+    padding-top: 4px;
+  }
+}
+
+// Bootstrap XL
+@media (min-width: 1200px) {
+  #copyright {
+    font-size: 18px;
+  }
+}

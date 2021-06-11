@@ -6,7 +6,6 @@ h1 {
 }
 
 #landing-section {
-  position: relative;
   display: table;
   width: 100%;
   height: 100%;
@@ -42,32 +41,29 @@ h1 {
 #about-preview-section {
   padding-top: 80px;
   padding-bottom: 80px;
+  padding-left: 0px;
 }
 #molly-with-rock-img {
   width: 100%;
 }
 
-#about-preview-intro {
-  font-size: 25px;
-  margin-top: 30px;
-  font-weight: 500;
-  line-height: 1.7;
-}
-
-#about-preview-body {
+p {
   font-size: 20px;
   line-height: 1.7;
   margin-bottom: 35px;
 }
 
-// TO DO! CONSOLIDATE HR STYLE
-#about-preview-section hr {
-  width: 50%;
+hr.content-divider {
+  width: 25%;
   height: 0.4px;
   margin-left: 0px;
   margin-top: 15px;
   margin-bottom: 25px;
   border: 0px none;
+}
+
+#about-preview-section hr.content-divider {
+  width: 50%;
   display: none;
 }
 
@@ -85,6 +81,8 @@ hr.content-hr {
 #home-page-cards {
   margin-bottom: 110px;
   max-width: none;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #home-page-cards .card-icon {
@@ -170,7 +168,7 @@ hr.content-hr {
     font-size: 19px;
   }
   
-  #about-preview-section hr {
+  #about-preview-section hr.content-divider {
     display: block;
   }
 
