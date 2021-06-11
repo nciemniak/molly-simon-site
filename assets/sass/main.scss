@@ -58,6 +58,21 @@ html {
   background-color: $color-background;
 }
 
+h2 {
+  font-size: 25px;
+
+  font-weight: 500;
+  line-height: 1.7;
+
+  &#about-preview-intro {
+    margin-top: 30px;
+  }
+
+  &#about-intro {
+    margin-top: -8px;
+  }
+}
+
 // co-opt the strong tag for color highlights
 strong {
   font-weight: inherit;
@@ -133,44 +148,20 @@ button {
  .page-title {
    margin-top: 50px;
    font-style: italic;
-   font-size: 14px;
+   font-size: 13px;
  }
 
-/******************
- * FOOTER
- ******************/
-#footer-divider {
-  width: 96%;
-  height: 1px;
-  background-color: $color-footer-divider;
-  opacity: 70%;
-  border: 0px none;
-}
-
-#asu-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  width: 60%;
-}
-
-#copyright {
-  font-size: 13px;
-  color: $color-text-muted;
-  text-align: center;
-  padding-bottom: 28px;
-}
+ .page-wrapper.content {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 130px;
+ }
 
 // Bootstrap S
 @media (min-width: 576px) { 
   .page-wrapper {
     padding: 0px $base-margin-sm;
-  }
-
-  #copyright {
-    font-size: 15px;
   }
 }
 
@@ -192,10 +183,6 @@ button {
   .card p {
     font-size: 21px;
   }
-
-  #copyright {
-    font-size: 18px;
-  }
 }
 
 // Bootstrap L
@@ -207,27 +194,10 @@ button {
   .card p {
     font-size: 18px;
   }
-
-  #copyright-col {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-  }
-
-  #copyright {
-    font-size: 15px;
-    padding-bottom: 0px;
-    padding-top: 4px;
-  }
 }
 
 // Bootstrap XL
 @media (min-width: 1200px) {
-  .page-wrapper {
-    padding: 0px $base-margin;
-  }
-
   #copyright {
     font-size: 18px;
   }
@@ -235,5 +205,6 @@ button {
 
 @import "fonts";
 @import "nav";
+@import "footer";
 @import "home";
-
+@import "about";

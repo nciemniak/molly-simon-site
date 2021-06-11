@@ -47,38 +47,24 @@ h1 {
   width: 100%;
 }
 
-#about-preview-intro {
-  font-size: 25px;
-  margin-top: 30px;
-  font-weight: 500;
-  line-height: 1.7;
-}
-
-#about-preview-body {
+p {
   font-size: 20px;
   line-height: 1.7;
   margin-bottom: 35px;
 }
 
-// TO DO! CONSOLIDATE HR STYLE
-#about-preview-section hr {
-  width: 50%;
+hr.content-divider {
+  width: 25%;
   height: 0.4px;
   margin-left: 0px;
   margin-top: 15px;
   margin-bottom: 25px;
   border: 0px none;
-  display: none;
 }
 
-//CONSOLIDATE
-hr.content-hr {
+#about-preview-section hr.content-divider {
   width: 50%;
-  height: 0.4px;
-  margin-left: 0px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  border: 0px none;
+  display: none;
 }
 
 /* Home page card styles */
@@ -172,7 +158,7 @@ hr.content-hr {
     font-size: 19px;
   }
   
-  #about-preview-section hr {
+  #about-preview-section hr.content-divider {
     display: block;
   }
 
