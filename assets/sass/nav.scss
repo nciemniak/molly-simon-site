@@ -9,7 +9,7 @@
 }
 
 .page-nav-link {
-  padding-left: 36px;
+  margin-left: 36px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -19,6 +19,48 @@ a.nav-title {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+}
+
+a.page-nav-link {
+  color: $color-text;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+
+  &.active {
+    color: $color-mint;
+  }
+
+  // Underline
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -11px;
+    left: 0;
+    background-color: $color-mint;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  // Hover Underline
+  &:hover::after {
+      transform: scaleX(1);
+  }
+}
+
+// Header image - visible on all pages except Home
+#content-page-header.active {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+  background: $color-background;  
+  background-size: cover;
+  background-image: url(../images/night-sky-header.jpg);
 }
 
 #mobile-nav-menu-icon {
@@ -43,11 +85,10 @@ a.nav-title {
   }
 }
 
-
 // Bootstrap XL
 @media (min-width: 1200px) {
   .page-nav-link {
-    padding-left: 50px;
+    margin-left: 50px;
     font-size: 17px;
   }
 
