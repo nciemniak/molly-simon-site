@@ -1,0 +1,4 @@
+---
+type: "pages"
+layout: "about"
+---

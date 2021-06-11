@@ -60,6 +60,7 @@ h1 {
   margin-bottom: 35px;
 }
 
+// TO DO! CONSOLIDATE HR STYLE
 #about-preview-section hr {
   width: 50%;
   height: 0.4px;
@@ -68,6 +69,16 @@ h1 {
   margin-bottom: 25px;
   border: 0px none;
   display: none;
+}
+
+//CONSOLIDATE
+hr.content-hr {
+  width: 50%;
+  height: 0.4px;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border: 0px none;
 }
 
 /* Home page card styles */

@@ -127,7 +127,18 @@ button {
   margin-bottom: 5px;
 }
 
-/* Footer */
+/******************
+ * CONTENT PAGES
+ ******************/
+ .page-title {
+   margin-top: 50px;
+   font-style: italic;
+   font-size: 14px;
+ }
+
+/******************
+ * FOOTER
+ ******************/
 #footer-divider {
   width: 96%;
   height: 1px;
@@ -222,6 +233,7 @@ button {
   }
 }
 
+@import "fonts";
 @import "nav";
 @import "home";
 
