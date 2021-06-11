@@ -1,5 +1,5 @@
 .navbar {
-  padding: 8px $base-margin-xs;
+  padding: 8px ($base-margin-xs - 10) 8px $base-margin-xs;
   z-index: 100;
 }
 
