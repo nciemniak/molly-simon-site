@@ -4,3 +4,16 @@
   padding-left: 25px;
   padding-bottom: 25px;
 }
+
+#about-section p {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 992px) {
+  #about-photo {
+    width: 35%;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+}
