@@ -39,7 +39,7 @@ collections:
               { label: "Project Title", name: "project_title", widget: string },
               { label: "Description", name: "description", widget: markdown },
               { label: Figure, name: figure, widget: image }
-            }]
+            ]}
           - { label: "Past Projects", name: "past_projects", widget: list, fields: [
               { label: "Project Title", name: "project_title", widget: string },
               { label: "Description", name: "description", widget: markdown },
@@ -48,7 +48,7 @@ collections:
           - { label: "Research Group", name: "research_group", widget: list, fields: [
               { label: "Name", name: "name", widget: string },
               { label: "About", name: "about", widget: markdown }
-          ]}
+            ]}
       - file: "content/teaching/index.md"
         label: "Teaching"
         name: "teaching"
