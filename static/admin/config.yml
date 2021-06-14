@@ -1,31 +1,73 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master
 media_folder: static/uploads
 public_folder: /uploads
 collections:
-  - name: 'pages'
-    label: 'Pages'
+  - name: "pages"
+    label: "Pages"
     editor:
       preview: false
     files: 
-      - file: 'content/_index.md'
-        label: 'Home'
-        name: 'home'
+      - file: "content/_index.md"
+        label: "Home"
+        name: "home"
         fields:
-          - { label: 'Site Intro', name: 'landing_intro', widget: markdown }
-          - { label: 'About Preview', name: 'about_preview', widget: object, fields: [
-                { label: 'About Preview Intro', name: 'about_preview_intro', widget: markdown },
-                { label: 'About Preview Body', name: 'about_preview_body', widget: markdown }
+          - { label: "Site Intro", name: "landing_intro", widget: markdown }
+          - { label: "About Preview", name: "about_preview", widget: object, fields: [
+                { label: "About Preview Intro", name: "about_preview_intro", widget: markdown },
+                { label: "About Preview Body", name: "about_preview_body", widget: markdown }
             ]}
-          - { label: 'Navigation Cards', name: 'navigation_cards', widget: object, fields: [
-                { label: 'Research Blurb', name: 'research_blurb', widget: string },
-                { label: 'Teaching Blurb', name: 'teaching_blurb', widget: string },
-                { label: 'Curricular Materials Blurb', name: 'curr_materials_blurb', widget: string }
+          - { label: "Navigation Cards", name: "navigation_cards", widget: object, fields: [
+                { label: "Research Blurb", name: "research_blurb", widget: string },
+                { label: "Teaching Blurb", name: "teaching_blurb", widget: string },
+                { label: "Curricular Materials Blurb", name: "curr_materials_blurb", widget: string }
             ]}
-      - file: 'content/about/index.md'
-        label: 'About'
-        name: 'about'
+      - file: "content/about/index.md"
+        label: "About"
+        name: "about"
         fields:
-          - { label: 'About Intro', name: 'about_intro', widget: markdown }
-          - { label: 'About Body', name: 'about_body', widget: markdown }
+          - { label: "About Intro", name: "about_intro", widget: markdown }
+          - { label: "About Body", name: "about_body", widget: markdown }
+      - file: "content/research/index.md"
+        label: "Research"
+        name: "research"
+        fields:
+          - { label: "Research Intro", name: "research_intro", widget: markdown }
+          - { label: "Research Body", name: "research_body", widget: markdown }
+          - { label: "Current Projects", name: "current_projects", widget: list, fields: [
+              { label: "Project Title", name: "project_title", widget: string },
+              { label: "Description", name: "description", widget: markdown },
+              { label: Figure, name: figure, widget: image }
+            }]
+          - { label: "Past Projects", name: "past_projects", widget: list, fields: [
+              { label: "Project Title", name: "project_title", widget: string },
+              { label: "Description", name: "description", widget: markdown },
+              { label: Figure, name: figure, widget: image }
+            ]}
+          - { label: "Research Group", name: "research_group", widget: list, fields: [
+              { label: "Name", name: "name", widget: string },
+              { label: "About", name: "about", widget: markdown }
+          ]}
+      - file: "content/teaching/index.md"
+        label: "Teaching"
+        name: "teaching"
+        fields: 
+          - { label: "Teaching Intro", name: "teaching_intro", widget: markdown }
+          - { label: "Teaching Body", name: "teaching_body", widget: markdown }
+      - file: "content/curricular_materials/index.md"
+        label: "Curricular Materials"
+        name: "curricular_materials"
+        fields: 
+          - { label: "Links", name: "links", widget: list, fields: [
+              { label: "Link Name", name: "link_name", widget: string }
+              { label: "Description", name: "description", widget: string }
+            ]}
+      - file: "content/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: "Page Text", name: "page_text", widget: markdown }
+          - { label: "Email", name: "email", widget: string }
+          - { label: "Phone", name: "phone", widget: string }
+          - { label: "Address", name: "address", widget: markdown }
