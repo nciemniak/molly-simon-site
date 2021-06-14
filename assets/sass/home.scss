@@ -1,6 +1,6 @@
 /* Landing section styles */
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -77,7 +77,7 @@ hr.content-divider {
 // Bootstrap S
 @media (min-width: 576px) { 
   h1 {
-    font-size: 45px;
+    font-size: 53px;
   }
 
   #landing-section {
@@ -101,13 +101,16 @@ hr.content-divider {
     padding-bottom: 110px;
   }
 
-  #about-preview-intro {
+  h2#about-preview-intro {
     font-size: 32px;
     margin-top: 40px;
   }
 
-  #about-preview-body {
+  #about-preview-body, #about-preview-section button {
     font-size: 25px;
+  }
+
+  #about-preview-body {
     margin-bottom: 45px;
   }
 
@@ -127,7 +130,7 @@ hr.content-divider {
 // Bootstrap L
 @media (min-width: 992px) {
   h1 {
-    font-size: 53px;
+    font-size: 60px;
   }
 
   #home-page-wrapper {
@@ -144,21 +147,17 @@ hr.content-divider {
     padding-left: 40px;
   }
 
-  #about-preview-intro {
+  h2#about-preview-intro {
     font-size: 24px;
     margin-top: 0px;
   }
 
-  #about-preview-body {
+  #about-preview-body, #about-preview-section button {
     font-size: 19px;
   }
   
   #about-preview-section hr.content-divider {
     display: block;
-  }
-
-  #about-preview-section button {
-    font-size: 19px;
   }
 
   #home-page-cards {
@@ -188,23 +187,19 @@ hr.content-divider {
     padding-left: 70px;
   }
 
-  #about-preview-intro {
+  h2#about-preview-intro {
     font-size: 28px;
   }
 
-  #about-preview-body {
-    font-size: 22px;
-  }
-
-  #about-preview-section button {
-    font-size: 22px;
+  #about-preview-body, #about-preview-section button {
+    font-size: 21px;
   }
 }
 
 // XXL
 @media (min-width: 1400px) {
   h1 {
-    font-size: 57px;
+    font-size: 65px;
   }
 
   #landing-section-content {
