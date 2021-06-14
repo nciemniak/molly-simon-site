@@ -1,14 +1,16 @@
 ---
-landing_intro: Lorem ipsum dolor sit amet, consectetur **Arizona State
-  University** eiusmod. Tempor incididunt ut labore et dolore magna aliqua.
+landing_intro: Welcome! I'm an Assistant Professor at **Arizona State
+  University** (ASU). Happy Exploring!
 about_preview:
-  about_preview_intro: Consequat **interdum varius** sit amet mattis vulputate.
-    Iterdum varius sit amet mattis.
-  about_preview_body: Dictum non consectetur a erat nam at lectus urna. Mauris sit
-    amet massa vitae. Euismod nisi porta lorem mollis aliquam ut porttitor.
-    Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.
-    Sem viverra aliquet eget sit amet tellus cras. Amet risus nullam eget felis
-    eget nunc.
+  about_preview_intro: Dr. Molly Simon is a planetary scientist and astronomy
+    education researcher in ASU's **School of Earth and Space Exploration**
+    (SESE).
+  about_preview_body: Her current research focuses on utilizing citizen science to
+    bring authentic research experiences to undergraduate students both in
+    person and online. Dr. Simon uses a mixed-method approach to measure the
+    efficacy of new active learning strategies developed to increase student
+    learning on a variety of topics taught in astronomy and planetary science
+    courses.
 navigation_cards:
   research_blurb: Erat velit scelerisque in dictum. Consectetur adipiscing elit ut
     aliquam purus sit amet.
