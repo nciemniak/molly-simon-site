@@ -1,3 +1,30 @@
+<!-- mobile nav menu expanded -->
+<nav id="mobile-nav-menu">
+  <img id="close-icon" src="/svg/close-icon.svg">
+  <ul id="mobile-nav-links-section">
+    <li>
+      <a href="{{ .Site.BaseURL }}" class='mobile-nav-link {{ if .IsHome }}active{{ end }}'>HOME</a>
+    </li>
+    <li>
+      <a href="/about" class='mobile-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
+    </li>
+    <li>
+      <a class='mobile-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
+    </li>
+    <li>
+      <a class='mobile-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
+    </li>
+    <li>
+      <a class='mobile-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
+    </li>
+    <li>
+      <a class='mobile-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
+    </li>
+  </ul>
+</nav>
+<div class="dim-overlay"></div>
+
+<!-- main nav -->
 <div id="content-page-header" class='{{ if not .IsHome }}active{{ end }}'>
   <nav class="navbar">
     <a class="nav-title" href="{{ .Site.BaseURL }}">

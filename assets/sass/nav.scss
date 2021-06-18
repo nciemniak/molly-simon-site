@@ -1,6 +1,9 @@
-.navbar {
+.navbar, #close-icon {
   padding: 8px ($base-margin-xs - 10) 8px $base-margin-xs;
-  z-index: 100;
+}
+
+.navbar {
+  z-index: 5;
 }
 
 .page-nav-links-section {
@@ -64,18 +67,77 @@ a.page-nav-link {
   background-image: url(../images/night-sky-header.jpg);
 }
 
+// Mobile view
 #mobile-nav-menu-icon {
+  cursor: pointer;
   width: 60px;
+}
+
+#mobile-nav-top {
+  width: 100%;
+}
+
+#close-icon {
+  width: 60px;
+  height: 60px;
+  float: right;
+  cursor: pointer;
+}
+
+#mobile-nav-menu {
+  position: absolute;
+  z-index: 20;
+  background-color: $color-background;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  width: 100%;
+  border-bottom: 4px solid $color-mint;
+}
+
+#mobile-nav-links-section {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  clear: both;
+}
+
+.mobile-nav-link {
+  color: $color-text;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+
+  &.active {
+    color: $color-mint;
+  }
 }
 
 // Bootstrap S
 @media (min-width: 576px) { 
-  .navbar {
+  .navbar, #close-icon {
     padding: 40px $base-margin-sm;
   }
 
   #content-page-header.active {
     max-height: 240px;
+  }
+
+  #mobile-nav-links-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mobile-nav-link {
+    margin-bottom: 45px;
   }
 }
 

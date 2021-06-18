@@ -52,6 +52,16 @@ html {
   background-color: $color-background;
 }
 
+.dim-overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 15;
+}
+
+
 // provide a content wrapper with margins and background color
 .page-wrapper {
   padding: 0px $base-margin-xs;
@@ -104,13 +114,20 @@ strong {
 
 button {
   background: none;
-  border-color: $color-mint; 
+  border: 2px solid $color-mint;
   color: $color-mint;
   font-family: Karla, sans-serif;
   font-size: 20px;
   font-weight: 500;
   padding: 15px 50px;
   border-radius: 8px;
+
+  &:hover {
+    background-color: #2f332b;
+  }
+  &:focus {
+    box-shadow: 0 0 0 4px #758159;
+  }
 }
 
 /* Card component */
@@ -119,6 +136,10 @@ button {
   background: $color-card-bg;
   padding: 25px;
   margin-bottom: 40px;
+
+  &:hover {
+    box-shadow: 0 0 0 6px #758159;
+  }
 }
 
 .icon-square {
