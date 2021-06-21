@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+<div id="research-section" class="page-wrapper content">
+  <div class="page-title">
+    Research
+  </div>
+  <hr class="content-divider mint-color-background">
+
+  <h2 id="research-intro">
+    {{ .Params.research_intro | markdownify }}
+  </h2>
+  <p id="research_body">
+    {{ .Params.research_body | markdownify }}
+  </p>
+
+  <div class="tabset">
+    <!-- Tab 1 -->
+    <input type="radio" name="tabset" id="curr-projects-tab" aria-controls="current-projects" checked>
+    <label for="curr-projects-tab">CURRENT <br/>PROJECTS</label>
+    <!-- Tab 2 -->
+    <input type="radio" name="tabset" id="past-projects-tab" aria-controls="past-projects">
+    <label for="past-projects-tab">PAST <br/>PROJECTS</label>
+    <!-- Tab 3 -->
+    <input type="radio" name="tabset" id="research-group-tab" aria-controls="research-group">
+    <label for="research-group-tab">RESEARCH <br/>GROUP</label>
+    
+    <div class="tab-panels">
+      <section id="curr-projects-section" class="tab-panel">
+        <h2 class="research-header">PROJECT TITLE</h2>
+        <p class="research-content">Rhoncus est pellentesque elit
+          ullam corper dignissim cras 
+          tincidunt lobortis. Volutpat sed 
+          cras ornare arcu dui vivamus 
+          arcu felis. Nisi porta lorem mollis 
+          aliquam ut porttitor leo a. Sed 
+          egestas egestas fringilla 
+          phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo. Etiam sit amet nisl purus in. 
+        </p>
+    </section>
+      <section id="rauchbier" class="tab-panel">
+        <h2>6B. Rauchbier</h2>
+        <p><strong>Overall Impression:</strong>  An elegant, malty German amber lager with a balanced, complementary beechwood smoke character. Toasty-rich malt in aroma and flavor, restrained bitterness, low to high smoke flavor, clean fermentation profile, and an attenuated finish are characteristic.</p>
+        <p><strong>History:</strong> A historical specialty of the city of Bamberg, in the Franconian region of Bavaria in Germany. Beechwood-smoked malt is used to make a Märzen-style amber lager. The smoke character of the malt varies by maltster; some breweries produce their own smoked malt (rauchmalz).</p>
+      </section>
+      <section id="dunkles" class="tab-panel">
+        <h2>6C. Dunkles Bock</h2>
+        <p><strong>Overall Impression:</strong> A dark, strong, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish.</p>
+        <p><strong>History:</strong> Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century). Recreated in Munich starting in the 17th century. The name “bock” is based on a corruption of the name “Einbeck” in the Bavarian dialect, and was thus only used after the beer came to Munich. “Bock” also means “Ram” in German, and is often used in logos and advertisements.</p>
+      </section>
+    </div>
+    
+  </div>
+</div>
+
+{{ end }}

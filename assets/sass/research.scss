@@ -1,0 +1,96 @@
+
+#research-section {
+  max-width: 900px;
+}
+
+h2.research-header {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+p.research-content {
+  margin-top: 0px;
+}
+
+/********
+ * TABS
+ ********/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset label {
+  color: $color-mint;
+  font-weight: 700;
+  text-align: center;
+  font-size: 12px;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 13px 16px 9px 16px;
+  border: 1px solid transparent;
+  border-radius: 11px 11px 0px 0px;
+  border-bottom: 0;
+  cursor: pointer;
+}
+
+.tabset > label:hover {
+  color: #e3ffd0;
+}
+
+.tabset > input:checked + label {
+  border-color: $color-mint;
+  border-bottom: 1px solid $color-background;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding-top: 30px;
+  border-top: 1px solid $color-mint;
+}
+
+.tabset {
+  max-width: 65em;
+}
+
+// XS
+@media (min-width: 450px) { 
+  .tabset > label {
+    font-size: 14px;
+    padding: 13px 25px 9px 25px;
+  }
+}
+
+// Bootstrap S
+@media (min-width: 576px) { 
+  .tabset > label {
+    font-size: 16px;
+  }
+}
+
+// Bootstrap M  
+@media (min-width: 768px) {
+  .tabset label br {
+    display: none;
+  }
+
+  .tabset > label {
+    padding: 20px 25px 15px 25px;
+  }
+}

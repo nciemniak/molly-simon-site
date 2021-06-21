@@ -52,7 +52,6 @@ hr.content-divider {
   height: 0.4px;
   margin-left: 0px;
   margin-top: 15px;
-  margin-bottom: 30px;
   border: 0px none;
 }
 
@@ -87,6 +86,10 @@ hr.content-divider {
   #landing-section-content div.row {
     padding-left: $base-margin-sm;
     padding-right: 0px;
+  }
+
+  hr.content-divider {
+    margin-bottom: 30px;
   }
 }
 

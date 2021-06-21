@@ -32,7 +32,7 @@ $color-footer-divider: #495351;
 // left/right margins across site
 $base-margin: 90px; 
 $base-margin-sm: 60px;
-$base-margin-xs: 30px;
+$base-margin-xs: 15px;
 
 
 /******************
@@ -236,3 +236,4 @@ button {
 @import "footer";
 @import "home";
 @import "about";
+@import "research";
