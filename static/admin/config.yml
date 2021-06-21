@@ -45,9 +45,15 @@ collections:
               { label: "Description", name: "description", widget: markdown },
               { label: Figure, name: figure, widget: image }
             ]}
-          - { label: "Research Group", name: "research_group", widget: list, fields: [
+          - { label: "Postdoctoral Researchers", name: "postdoc_researchers", widget: list, fields: [
               { label: "Name", name: "name", widget: string },
-              { label: "About", name: "about", widget: markdown }
+              { label: "About", name: "about", widget: markdown },
+              { label: "Photo", name: "photo", widget: image }
+            ]}
+          - { label: "Graduate Students", name: "grad_students", widget: list, fields: [
+              { label: "Name", name: "name", widget: string },
+              { label: "About", name: "about", widget: markdown },
+              { label: "Photo", name: "photo", widget: image }
             ]}
       - file: "content/teaching/index.md"
         label: "Teaching"
