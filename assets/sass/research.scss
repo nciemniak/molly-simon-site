@@ -86,6 +86,7 @@
 
 p.research-content {
   margin-top: 0px;
+  margin-bottom: 60px;
 }
 
 .research-figure {
@@ -173,6 +174,20 @@ p.research-content {
 
 // Bootstrap L
 @media (min-width: 992px) {
+  .research-figure {
+    float: right;
+    width: 50%;
+    padding: 10px 0px 40px 30px;
+  }
+
+  h2.research-header {
+    margin-top: 0px;
+  }
+
+  .tab-panel.projects {
+    padding-top: 60px;
+  }
+
   #research-group .row {
     display: flex;
   }

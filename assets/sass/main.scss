@@ -122,11 +122,12 @@ button {
   font-weight: 500;
   padding: 15px 50px;
   border-radius: 8px;
+  cursor: pointer;
 
   &:hover {
     background-color: #2f332b;
   }
-  &:focus {
+  &:focus:not(:hover) {
     box-shadow: 0 0 0 4px #758159;
   }
 }
@@ -137,6 +138,7 @@ button {
   background: $color-card-bg;
   padding: 25px;
   margin-bottom: 40px;
+  cursor: pointer;
 
   &:hover {
     box-shadow: 0 0 0 6px #758159;

@@ -28,32 +28,24 @@
     <label for="research-group-tab">RESEARCH <br/>GROUP</label>
     
     <div class="tab-panels">
-      <section id="current-projects" class="tab-panel">
-        <img class="research-figure" src="/images/figure-placeholder.png">
-        <h2 class="research-header">PROJECT TITLE</h2>
-        <p class="research-content">Rhoncus est pellentesque elit
-          ullam corper dignissim cras 
-          tincidunt lobortis. Volutpat sed 
-          cras ornare arcu dui vivamus 
-          arcu felis. Nisi porta lorem mollis 
-          aliquam ut porttitor leo a. Sed 
-          egestas egestas fringilla 
-          phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo. Etiam sit amet nisl purus in. 
+      <section id="current-projects" class="tab-panel projects">
+        {{ range .Params.current_projects }}
+        <img class="research-figure" src="{{ .figure }}">
+        <h2 class="research-header">{{ .project_title | upper }}</h2>
+        <p class="research-content">
+          {{ .description | markdownify }}
         </p>
+        {{ end }}
       </section>
 
-      <section id="past-projects" class="tab-panel">
-        <img class="research-figure" src="/images/figure-placeholder.png">
-        <h2 class="research-header">PROJECT TITLE</h2>
-        <p class="research-content">Rhoncus est pellentesque elit
-          ullam corper dignissim cras 
-          tincidunt lobortis. Volutpat sed 
-          cras ornare arcu dui vivamus 
-          arcu felis. Nisi porta lorem mollis 
-          aliquam ut porttitor leo a. Sed 
-          egestas egestas fringilla 
-          phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo. Etiam sit amet nisl purus in. 
+      <section id="past-projects" class="tab-panel projects">
+        {{ range .Params.past_projects }}
+        <img class="research-figure" src="{{ .figure }}">
+        <h2 class="research-header">{{ .project_title | upper }}</h2>
+        <p class="research-content">
+          {{ .description | markdownify }}
         </p>
+        {{ end }}
       </section>
 
       <section id="research-group" class="tab-panel">

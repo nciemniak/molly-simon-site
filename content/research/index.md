@@ -9,8 +9,8 @@ research_body: Rhoncus est pellentesque elit ullam corper dignissim cras
   fringilla phasellus faucibus scelerisque eleifend donec.
 current_projects:
   - project_title: Project Title
-    description: Rhoncus est pellentesque elit ullam corper dignissim cras tincidunt
-      lobortis. Volutpat sed cras ornare arcu dui vivamus arcu felis. Nisi porta
+    description: Rhoncus est pellentesque elit ullam corper dignissim cras **tincidunt
+      lobortis**. Volutpat sed cras ornare arcu dui vivamus arcu felis. Nisi porta
       lorem mollis aliquam ut porttitor leo a. Sed egestas egestas fringilla
       phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus
       urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet
@@ -20,7 +20,7 @@ current_projects:
   - project_title: Lobortis Scelerisque
     description: Tortor pretium viverra suspendisse potenti nullam ac tortor. Mauris
       in aliquam sem fringilla ut morbi. Id aliquet lectus proin nibh nisl
-      condim. Ornare suspendisse sed nisi lacus sed. Lobortis scelerisque
+      condim. Ornare suspendisse sed nisi lacus sed. Lobortis **scelerisque**
       fermentum dui faucibus. Amet nisl purus in mollis nunc sed id. Fusce ut
       placerat orci nulla pellentesque dignissim enim sit.
     figure: /uploads/figure-placeholder.png
@@ -28,7 +28,7 @@ past_projects:
   - project_title: Project Title
     description: Tortor pretium viverra suspendisse potenti nullam ac tortor. Mauris
       in aliquam sem fringilla ut morbi. Id aliquet lectus proin nibh nisl
-      condim. Ornare suspendisse sed nisi lacus sed. Lobortis scelerisque
+      condim. **Ornare suspendisse** sed nisi lacus sed. Lobortis scelerisque
       fermentum dui faucibus. Amet nisl purus in mollis nunc sed id. Fusce ut
       placerat orci nulla pellentesque dignissim enim sit.
     figure: /uploads/figure-placeholder.png
