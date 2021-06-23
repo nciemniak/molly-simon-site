@@ -121,6 +121,13 @@ a.page-nav-link {
   }
 }
 
+// XS
+@media (min-width: 450px) {
+  .navbar, #close-icon {
+    padding: 8px ($base-margin-xs - 10) 8px $base-margin-xs;
+  }
+}
+
 // Bootstrap S
 @media (min-width: 576px) { 
   .navbar, #close-icon {

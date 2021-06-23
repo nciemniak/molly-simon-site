@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+<div id="teaching-section" class="page-wrapper content">
+  <div class="page-title">
+    Teaching
+  </div>
+  <hr class="content-divider mint-color-background">
+
+  <h2 class="content-intro">
+    {{ .Params.teaching_intro | markdownify }}
+  </h2>
+  <p class="content-body">
+    {{ .Params.teaching_body | markdownify }}
+  </p>
+  <button class="content-page-button" type="button" onclick="location.href='https://isearch.asu.edu/profile/3725533'">VIEW COURSES</button>
+</div>
+
+{{ end }}
