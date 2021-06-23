@@ -61,6 +61,7 @@ collections:
         fields: 
           - { label: "Teaching Intro", name: "teaching_intro", widget: markdown }
           - { label: "Teaching Body", name: "teaching_body", widget: markdown }
+          - { label: "Course Page URL", name: "url", widget: string }
       - file: "content/curricular_materials/index.md"
         label: "Curricular Materials"
         name: "curricular_materials"
