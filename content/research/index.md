@@ -26,7 +26,7 @@ grad_students:
     about: Peter is an Astrophysics PhD student in ASU's School of Earth and Space
       Exploration. He is a native Texan and earned his BS in astrophysics from
       the University of Texas in 2020. His primary research focuses on
-      **ground-based characterization** **of planets outside our solar system**.
+      ground-based characterization of **planets outside our solar system**.
       Within SESE's Astronomy Education Research Group, Peter is working to
       develop a culturally responsive and inclusive curricular model to be
       combined with citizen science based classroom activities. Through his
@@ -36,8 +36,8 @@ grad_students:
     photo: /uploads/peter-smith-compressed.jpg
   - name: Haylee Archer
     about: Haylee Archer (she/her) is an Astrophysics PhD student in the School of
-      Earth and Space Exploration whose primary research is studying **star
-      formation in dwarf irregular galaxies**. She holds a Master’s in Science
+      Earth and Space Exploration whose primary research is studying star
+      formation in **dwarf irregular galaxies**. She holds a Master’s in Science
       Teaching and works with Dr. Simon for her secondary project assessing the
       efficacy of different active learning strategies in introductory astronomy
       courses. She is passionate about making science accessible and
