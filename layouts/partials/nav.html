@@ -12,13 +12,13 @@
       <a href="{{ .Site.BaseURL }}/research" class='mobile-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
     </li>
     <li>
-      <a class='mobile-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
+      <a href="{{ .Site.BaseURL }}/teaching" class='mobile-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
     </li>
     <li>
-      <a class='mobile-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
+      <a href="{{ .Site.BaseURL }}/curricular_materials" class='mobile-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
     </li>
     <li>
-      <a class='mobile-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
+      <a href="{{ .Site.BaseURL }}/contact" class='mobile-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
     </li>
   </ul>
 </nav>
@@ -37,7 +37,7 @@
       <a href="{{ .Site.BaseURL }}/research" class='page-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
       <a href="{{ .Site.BaseURL }}/teaching" class='page-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
       <a href="{{ .Site.BaseURL }}/curricular_materials" class='page-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
-      <a class='page-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
+      <a href="{{ .Site.BaseURL }}/contact" class='page-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
     </div>
   
     <!-- mobile display -->
