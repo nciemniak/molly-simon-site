@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg enable-background="new 0 0 85 85" height="85px" id="Layer_1" version="1.1" viewBox="0 0 85 85" width="85px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<path d="M54.091,36.31   c-2.293,3.221-6.498,4.721-10.451,3.413c-4.072-1.348-6.581-5.249-6.335-9.337" fill="none" stroke="#1B3236" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M38.938,25.659   c2.277-3.289,6.528-4.835,10.519-3.513c3.55,1.175,5.911,4.201,6.299,7.686l0.119,0.1c2.745,1.709,4.284,3.444,3.875,4.682   c-0.722,2.178-7.214,1.984-14.508-0.429c-7.29-2.411-10.791-6.158-11.896-8.309" fill="none" stroke="#1B3236" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+<path d="M36.742,68.035H26.621   c-3.619,0-6.58-2.963-6.58-6.582V59.26c0-3.619,2.961-6.58,6.58-6.58h38.337V8.81H28.813c-4.826,0-8.772,3.947-8.772,8.773v41.493" fill="none" stroke="#1B3236" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4"/>
+<line fill="none" stroke="#1B3236" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4" x1="64.958" x2="46.827" y1="68.035" y2="68.035"/>
+<line fill="none" stroke="#1B3236" stroke-miterlimit="10" stroke-width="4" x1="27.785" x2="27.785" y1="9.004" y2="52.473"/>
+<g>
+<polyline fill="none" points="46.675,60.432 46.675,76.191     41.906,73.029 37.142,76.191 37.142,60.432   " stroke="#1B3236" stroke-miterlimit="10" stroke-width="4"/>
+</g>
+<line fill="none" stroke="#1B3236" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4" x1="27.151" x2="64.958" y1="60.322" y2="60.322"/>
+</g>
+</svg>

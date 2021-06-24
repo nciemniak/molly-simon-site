@@ -1,0 +1,101 @@
+#curr-materials-section {
+  margin-bottom: 180px;
+}
+
+#curr-material-cards {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#curr-material-cards .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+#curr-material-cards .card {
+  display: flex;
+  flex-direction: column;
+  -webkit-flex: 1; /* Safari */
+  -ms-flex: 1; /* IE 10 */
+  margin-bottom: 50px;
+}
+
+#curr-material-cards .content-divider {
+  margin-bottom: 50px;
+}
+
+#curr-material-cards .card-icon {
+  height: 42px;
+}
+
+// Coming Soon Styles
+.card.coming-soon {
+  background-color: $color-card-bg-disabled;
+  cursor: not-allowed;
+}
+
+.card.coming-soon h2 {
+  color: #DFD8DB;
+}
+
+.card.coming-soon p {
+  color: #B5ACAF;
+}
+
+.card.coming-soon .icon-square {
+  background-color: #D0CCCC;
+}
+
+.coming-soon-badge {
+  display: none;
+}
+
+.card.coming-soon .coming-soon-badge {
+  display: block;
+}
+
+.coming-soon-badge {
+  margin-top: 22px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.coming-soon-text {
+  padding: 5px 25px;
+  font-weight: 800;
+  color: $color-card-bg-disabled;
+  background-color: #FFF34A;
+  border-radius: 4px;
+}
+
+// Bootstrap M  
+@media (min-width: 768px) {
+  .card.left {
+    margin-right: 15px;
+  }
+  
+  .card.right {
+    margin-left: 15px;
+  }
+}
+
+// Bootstrap L
+@media (min-width: 992px) {
+  #curr-material-cards [class*='col-'] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .card.left {
+    margin-right: 25px;
+  }
+  
+  .card.right {
+    margin-left: 25px;
+  }
+
+  #curr-material-cards .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

@@ -25,6 +25,7 @@ $color-mint: #D0FCB3;
 $color-lavender: #BC88C8;
 $color-background: #050410;
 $color-card-bg: #1B3236;
+$color-card-bg-disabled: #2D4044;
 $color-card-text: #C3B8BD;
 $color-footer-divider: #495351;
 
@@ -209,16 +210,16 @@ button {
     font-size: 25px;
   }
 
-  .card {
+  #home-page-cards .card {
     margin-left: 5px;
     margin-right: 5px;
   }
 
-  .card-header {
+  #home-page-cards .card-header {
     font-size: 28px;
   }
 
-  .card p {
+  #home-page-cards.card p {
     font-size: 21px;
   }
 }
@@ -248,3 +249,4 @@ button {
 @import "about";
 @import "research";
 @import "teaching";
+@import "curricular_materials"

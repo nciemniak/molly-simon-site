@@ -1,0 +1,86 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+<div id="curr-materials-section" class="page-wrapper content">
+  <div id="curr-material-cards" class="container">
+    <div class="page-title">
+      Curricular Materials
+    </div>
+    <hr class="content-divider mint-color-background">
+
+    <div class="row">
+      <div class="col-md-6">
+        {{ with (index .Params.links 0) }}        
+        {{ if .coming_soon }}
+        <div class="card left coming-soon">
+        {{ else }}
+        <div class="card left" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square mint-color-background">
+            <img id="space-book-icon" class="card-icon" src="/svg/space-book-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="col-md-6">
+        {{ with (index .Params.links 1) }}
+        {{ if .coming_soon }}
+        <div class="card right coming-soon">
+        {{ else }}
+        <div class="card right" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square gold-color-background">
+            <img id="3-planets-icon" class="card-icon" src="/svg/3-planets-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        {{ with (index .Params.links 2) }}
+        {{ if .coming_soon }}
+        <div class="card left coming-soon">
+        {{ else }}
+        <div class="card left" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square lavender-color-background">
+            <img id="universe-icon" class="card-icon" src="/svg/universe-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="col-md-6">
+        {{ with (index .Params.links 3) }}
+        {{ if .coming_soon }}
+        <div class="card right coming-soon">
+        {{ else }}
+        <div class="card right" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square mint-color-background">
+            <img id="solar-system-icon" class="card-icon" src="/svg/solar-system-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

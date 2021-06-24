@@ -9,6 +9,8 @@ links:
     description: Pellentesque diam volutpat commod sed egestas egestas.
   - link_name: Zooniverse Labs
     description: Erat velit scelerisque in dictum consectetur adipiscing elit.
+    coming_soon: true
   - link_name: Planet Formation Online Simulation
     description: "Erat velit scelerisque in dictum. "
+    coming_soon: true
 ---
