@@ -1,0 +1,32 @@
+#contact-section {
+  margin-bottom: 180px;
+}
+
+#contact-text {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#email {
+  margin-top: 0px;
+}
+
+#email a {
+  color: $color-mint;
+}
+
+#secondary-contact-info {
+  margin-top: 50px;
+  color: $color-text-dark;
+}
+
+#secondary-contact-info p {
+  margin-bottom: 30px;
+}
+
+.contact-icon {
+  position: relative;
+  top: 3px;
+  width: 25px;
+  padding-right: 20px;
+}

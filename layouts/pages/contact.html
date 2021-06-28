@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+<div id="contact-section" class="page-wrapper content">
+  <div class="page-title">
+    Contact
+  </div>
+  <hr class="content-divider mint-color-background">
+
+  <h2 id="contact-text">{{ .Params.page_text | markdownify }}</h2>
+  <h2 id="email"><a href="mailto: {{ .Params.email }}">{{ .Params.email }}</a></h2>
+  <div id="secondary-contact-info">
+    <p><span><img class="contact-icon" src="/svg/phone-icon.svg"></span><span>{{ .Params.phone }}</span></p>
+    <p><span><img class="contact-icon" src="/svg/map-icon.svg"></span>hellohlelo</p>
+  </div>
+
+</div>
+
+{{ end }}

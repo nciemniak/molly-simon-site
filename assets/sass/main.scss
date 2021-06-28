@@ -20,6 +20,7 @@
  /* Colors */
 $color-text: #F7F0F3;
 $color-text-muted: #E8DEE2;
+$color-text-dark: #B1A2A8;
 $color-gold: #DBBA51;
 $color-mint: #D0FCB3;
 $color-lavender: #BC88C8;
@@ -249,4 +250,5 @@ button {
 @import "about";
 @import "research";
 @import "teaching";
-@import "curricular_materials"
+@import "curricular_materials";
+@import "contact";
