@@ -34,7 +34,13 @@
     <!-- large display -->
     <div class="page-nav-links-section text-right">
       <a href="{{ .Site.BaseURL }}/about" class='page-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
-      <a href="{{ .Site.BaseURL }}/research" class='page-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
+      <a href="{{ .Site.BaseURL }}/research" id="research-nav-link" class='page-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
+      <div id="research-dropdown">
+        <a class="dropdown-item" href="{{ .Site.BaseURL }}/research">CURRENT PROJECTS</a>
+        <a class="dropdown-item" onclick="goToPastProjects('{{ .Site.BaseURL }}research')">PAST PROJECTS</a>
+        <a class="dropdown-item" onclick="goToResearchGroup('{{ .Site.BaseURL }}research')">RESEARCH GROUP</a>
+      </div>
+
       <a href="{{ .Site.BaseURL }}/teaching" class='page-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
       <a href="{{ .Site.BaseURL }}/curricular_materials" class='page-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
       <a href="{{ .Site.BaseURL }}/contact" class='page-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>

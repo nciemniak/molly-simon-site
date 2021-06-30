@@ -11,3 +11,15 @@ $(function() {
     $('#mobile-nav-menu').slideUp();
   });
 });
+
+// research dropdown navigation
+function goToPastProjects(url) {
+  query_params = "?section=past_projects"
+  window.location.href = url + query_params;
+}
+
+// research dropdown navigation
+function goToResearchGroup(url) {
+  query_params = "?section=reserach_group"
+  window.location.href = url + query_params;
+}
