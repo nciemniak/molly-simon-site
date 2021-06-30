@@ -12,8 +12,7 @@ about_preview:
     a variety of topics taught in college-level astronomy and planetary science
     courses.
 navigation_cards:
-  research_blurb: Erat velit scelerisque in dictum. Consectetur adipiscing elit ut
-    aliquam purus sit amet.
-  teaching_blurb: Pellentesque diam volutpat commodo sed egestas egestas.
-  curr_materials_blurb: Pretium quam vulputate dignissim suspendisse in est ante in nibh.
+  research_blurb: Explore Research Page
+  teaching_blurb: Explore Teaching Page
+  curr_materials_blurb: "Access Curricular Materials "
 ---
