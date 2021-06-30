@@ -68,4 +68,17 @@ grad_students:
       courses. She is passionate about making science accessible and
       comprehensible to all students.
     photo: /uploads/hayley-archer.jpg
+  - name: "Isaac Rosenthal "
+    about: Isaac is a PhD student in the School for the Environment at University of
+      Massachusetts Boston. He was connected to Dr. Simon through their mutual
+      work on citizen science at The Zooniverse, where they developed classroom
+      curricula to pair with online citizen science projects. Much of Isaac’s
+      research focuses on the intersection of natural and human systems. He
+      tries to leverage natural history, social factors, and modern analytical
+      techniques to learn about global change as well as communicate complex
+      ideas to the general public in an approachable way. In addition to his
+      work with Dr. Simon, he is also a trail guide and an AAUS certified diver
+      with contributions to many long term academic and citizen science field
+      monitoring projects.
+    photo: /uploads/1517462038011.jpg
 ---
