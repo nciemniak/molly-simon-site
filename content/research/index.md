@@ -9,13 +9,13 @@ research_body: Rhoncus est pellentesque elit ullam corper dignissim cras
   fringilla phasellus faucibus scelerisque eleifend donec.
 current_projects:
   - project_title: Project Title
-    description: Rhoncus est pellentesque elit ullam corper dignissim cras **tincidunt
-      lobortis**. Volutpat sed cras ornare arcu dui vivamus arcu felis. Nisi porta
-      lorem mollis aliquam ut porttitor leo a. Sed egestas egestas fringilla
-      phasellus faucibus scelerisque eleifend donec. Turpis egestas sed tempus
-      urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet
-      bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo.
-      Etiam sit amet nisl purus in.
+    description: Rhoncus est pellentesque elit ullam corper dignissim cras
+      **tincidunt lobortis**. Volutpat sed cras ornare arcu dui vivamus arcu
+      felis. Nisi porta lorem mollis aliquam ut porttitor leo a. Sed egestas
+      egestas fringilla phasellus faucibus scelerisque eleifend donec. Turpis
+      egestas sed tempus urna et pharetra pharetra massa massa. Sed viverra
+      ipsum nunc aliquet bibendum enim. Sed velit dignissim sodales ut eu sem
+      integer vitae justo. Etiam sit amet nisl purus in.
     figure: /uploads/figure-placeholder.png
   - project_title: Lobortis Scelerisque
     description: Tortor pretium viverra suspendisse potenti nullam ac tortor. Mauris
@@ -60,7 +60,7 @@ grad_students:
       his free time, he loves to bake or be outdoors.
     photo: /uploads/peter-smith-compressed.jpg
   - name: Haylee Archer
-    about: Haylee Archer (she/her) is an Astrophysics PhD student in the School of
+    about: Haylee Archer (she/her) is an Astrophysics PhD student in ASU's School of
       Earth and Space Exploration whose primary research is studying star
       formation in **dwarf irregular galaxies**. She holds a Master’s in Science
       Teaching and works with Dr. Simon for her secondary project assessing the
