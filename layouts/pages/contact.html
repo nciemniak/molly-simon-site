@@ -3,16 +3,34 @@
 {{ partial "nav.html" . }}
 
 <div id="contact-section" class="page-wrapper content">
-  <div class="page-title">
-    Contact
-  </div>
-  <hr class="content-divider mint-color-background">
+  <div class="container">
 
-  <h2 id="contact-text">{{ .Params.page_text | markdownify }}</h2>
-  <h2 id="email"><a href="mailto: {{ .Params.email }}">{{ .Params.email }}</a></h2>
-  <div id="secondary-contact-info">
-    <p><span><img class="contact-icon" src="/svg/phone-icon.svg"></span><span>{{ .Params.phone }}</span></p>
-    <p><span><img class="contact-icon" src="/svg/map-icon.svg"></span>hellohlelo</p>
+      <div class="page-title">
+        Contact
+      </div>
+      <hr class="content-divider mint-color-background">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2 id="contact-text">{{ .Params.page_text | markdownify }}</h2>
+          <h2 id="email"><a href="mailto: {{ .Params.email }}">{{ .Params.email }}</a></h2>
+        </div>
+        <div class="col-lg-5">
+          <div id="secondary-contact-info">
+            <table>
+              <tr>
+                <td><img id="phone-icon" class="contact-icon" src="/svg/phone-icon.svg"></td>
+                <td>{{ .Params.phone }}</td>
+              </tr>
+              <tr>
+                <td><img id="map-icon" class="contact-icon" src="/svg/map-icon.svg"></td>
+                <td>{{ .Params.address | upper | markdownify }}</td>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
 
 </div>

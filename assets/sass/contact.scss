@@ -1,5 +1,6 @@
 #contact-section {
-  margin-bottom: 180px;
+  margin-bottom: 160px;
+  max-width: 900px;
 }
 
 #contact-text {
@@ -9,6 +10,7 @@
 
 #email {
   margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 #email a {
@@ -16,17 +18,44 @@
 }
 
 #secondary-contact-info {
-  margin-top: 50px;
   color: $color-text-dark;
 }
 
-#secondary-contact-info p {
-  margin-bottom: 30px;
+#secondary-contact-info table {
+  border-spacing: 0px 23px;
+  position: relative;
+}
+
+#secondary-contact-info td {
+  font-size: 18px;
+  line-height: 2;
 }
 
 .contact-icon {
   position: relative;
-  top: 3px;
-  width: 25px;
+  height: 25px;
   padding-right: 20px;
+}
+
+#phone-icon {
+  top: 6px;
+}
+
+#map-icon {
+  top: -11px;
+}
+
+// Bootstrap L
+@media (min-width: 992px) {
+  #secondary-contact-info {
+    margin-left: 70px;
+  }
+  
+  #secondary-contact-info table {
+    top: -28px;
+  }
+
+  #contact-section h2 {
+    font-size: 27px;
+  }
 }
