@@ -1,6 +1,6 @@
 ---
 landing_intro: I'm an Assistant Professor at **Arizona State University** in the
-  **School of Earth and Space Exploration**. Welcome to my website, and happy
+  **School of Earth and Space Exploration.** Welcome to my website, and happy
   exploring!
 about_preview:
   about_preview_intro: My background is in **planetary science** and my area of
