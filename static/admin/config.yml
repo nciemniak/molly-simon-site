@@ -29,6 +29,7 @@ collections:
         fields:
           - { label: "About Intro", name: "about_intro", widget: markdown }
           - { label: "About Body", name: "about_body", widget: markdown }
+          - {label: "CV File", name: cv, widget: file}
       - file: "content/research/index.md"
         label: "Research"
         name: "research"

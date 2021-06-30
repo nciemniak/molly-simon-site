@@ -15,6 +15,9 @@
   <p class="content-body">
     {{ .Params.about_body | markdownify }}
   </p>
+  <a href="{{ .Params.cv }}" target="blank" class="content-page-button"
+  onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
+  DOWNLOAD CV</a>
 </div>
 
 {{ end }}

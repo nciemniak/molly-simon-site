@@ -119,7 +119,7 @@ strong {
   background-color: $color-lavender;
 }
 
-button {
+button, a.content-page-button {
   background: none;
   border: 2px solid $color-mint;
   color: $color-mint;
@@ -136,6 +136,10 @@ button {
   &:focus:not(:hover) {
     box-shadow: 0 0 0 4px #758159;
   }
+}
+
+a.content-page-button {
+  text-decoration: none;
 }
 
 /* Card component */
