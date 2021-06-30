@@ -6,19 +6,19 @@
       <a href="{{ .Site.BaseURL }}" class='mobile-nav-link {{ if .IsHome }}active{{ end }}'>HOME</a>
     </li>
     <li>
-      <a href="{{ .Site.BaseURL }}/about" class='mobile-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
+      <a href="/about" class='mobile-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
     </li>
     <li>
-      <a href="{{ .Site.BaseURL }}/research" class='mobile-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
+      <a href="/research" class='mobile-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
     </li>
     <li>
-      <a href="{{ .Site.BaseURL }}/teaching" class='mobile-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
+      <a href="/teaching" class='mobile-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
     </li>
     <li>
-      <a href="{{ .Site.BaseURL }}/curricular_materials" class='mobile-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
+      <a href="/curricular_materials" class='mobile-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
     </li>
     <li>
-      <a href="{{ .Site.BaseURL }}/contact" class='mobile-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
+      <a href="/contact" class='mobile-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
     </li>
   </ul>
 </nav>
@@ -33,17 +33,17 @@
   
     <!-- large display -->
     <div class="page-nav-links-section text-right">
-      <a href="{{ .Site.BaseURL }}/about" class='page-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
-      <a href="{{ .Site.BaseURL }}/research" id="research-nav-link" class='page-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
+      <a href="/about" class='page-nav-link {{ if eq .Params.layout "about" }}active{{ end }}'>ABOUT</a>
+      <a href="/research" id="research-nav-link" class='page-nav-link {{ if eq .Params.layout "research" }}active{{ end }}'>RESEARCH</a>
       <div id="research-dropdown">
-        <a class="dropdown-item" href="{{ .Site.BaseURL }}/research">CURRENT PROJECTS</a>
-        <a class="dropdown-item" onclick="goToPastProjects('{{ .Site.BaseURL }}research')">PAST PROJECTS</a>
-        <a class="dropdown-item" onclick="goToResearchGroup('{{ .Site.BaseURL }}research')">RESEARCH GROUP</a>
+        <a class="dropdown-item" href="/research">CURRENT PROJECTS</a>
+        <a class="dropdown-item" onclick="goToPastProjects('/research')">PAST PROJECTS</a>
+        <a class="dropdown-item" onclick="goToResearchGroup('/research')">RESEARCH GROUP</a>
       </div>
 
-      <a href="{{ .Site.BaseURL }}/teaching" class='page-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
-      <a href="{{ .Site.BaseURL }}/curricular_materials" class='page-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
-      <a href="{{ .Site.BaseURL }}/contact" class='page-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
+      <a href="/teaching" class='page-nav-link {{ if eq .Params.layout "teaching" }}active{{ end }}'>TEACHING</a>
+      <a href="/curricular_materials" class='page-nav-link {{ if eq .Params.layout "curricular_materials" }}active{{ end }}'>CURRICULAR MATERIALS</a>
+      <a href="/contact" class='page-nav-link {{ if eq .Params.layout "contact" }}active{{ end }}'>CONTACT</a>
     </div>
   
     <!-- mobile display -->
