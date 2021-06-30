@@ -1,6 +1,6 @@
 /* Landing section styles */
 h1 {
-  font-size: 40px;
+  font-size: 33px;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -40,7 +40,7 @@ h1 {
 /* About preview styles */
 #about-preview-section {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 110px;
   padding-left: 0px;
 }
 #molly-with-rock-img {
@@ -78,10 +78,22 @@ hr.content-divider {
   height: 30px;
 }
 
+// XS
+@media (min-width: 450px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #landing-section-content div.row {
+    padding-left: $base-margin-xs;
+    padding-right: $base-margin-xs;
+  }
+}
+
 // Bootstrap S
 @media (min-width: 576px) { 
   h1 {
-    font-size: 53px;
+    font-size: 43px;
   }
 
   #landing-section {
@@ -106,16 +118,15 @@ hr.content-divider {
 
   #about-preview-section {
     padding-top: 110px;
-    padding-bottom: 110px;
   }
 
   h2#about-preview-intro {
-    font-size: 32px;
+    font-size: 29px;
     margin-top: 40px;
   }
 
   #about-preview-body, #about-preview-section button {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   #about-preview-body {
@@ -132,13 +143,24 @@ hr.content-divider {
     flex-direction: column;
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #home-page-cards .card-header {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  #home-page-cards.card p {
+    font-size: 21px;
   }
 }
 
 // Bootstrap L
 @media (min-width: 992px) {
   h1 {
-    font-size: 60px;
+    font-size: 53px;
   }
 
   #home-page-wrapper {
@@ -206,10 +228,6 @@ hr.content-divider {
 
 // XXL
 @media (min-width: 1400px) {
-  h1 {
-    font-size: 65px;
-  }
-
   #landing-section-content {
     bottom: 30px;
   }

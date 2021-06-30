@@ -93,6 +93,10 @@ p {
   margin-bottom: 35px;
 }
 
+a {
+  color: $color-lavender;
+}
+
 // co-opt the strong tag for color highlights
 strong {
   font-weight: inherit;
@@ -188,7 +192,7 @@ button {
    max-width: 750px;
    margin-left: auto;
    margin-right: auto;
-   margin-bottom: 110px;
+   margin-bottom: 180px;
  }
 
 // XS
@@ -209,19 +213,6 @@ button {
 @media (min-width: 768px) {
   button:not(.content-page-button) {
     font-size: 25px;
-  }
-
-  #home-page-cards .card {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-
-  #home-page-cards .card-header {
-    font-size: 28px;
-  }
-
-  #home-page-cards.card p {
-    font-size: 21px;
   }
 }
 
