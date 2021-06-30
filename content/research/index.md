@@ -54,7 +54,7 @@ grad_students:
       ground-based characterization of **planets outside our solar system**.
       Within SESE's Astronomy Education Research Group, Peter is working to
       develop a culturally responsive and inclusive curricular model to be
-      combined with citizen science based classroom activities. Through his
+      combined with **citizen science based classroom activities.** Through his
       research, Peter intends to address barriers to participation in the
       natural sciences for students who do not identify with majority groups. In
       his free time, he loves to bake or be outdoors.
@@ -64,20 +64,20 @@ grad_students:
       Earth and Space Exploration whose primary research is studying star
       formation in **dwarf irregular galaxies**. She holds a Master’s in Science
       Teaching and works with Dr. Simon for her secondary project assessing the
-      efficacy of different active learning strategies in introductory astronomy
-      courses. She is passionate about making science accessible and
+      efficacy of different **active learning strategies** in introductory
+      astronomy courses. She is passionate about making science accessible and
       comprehensible to all students.
     photo: /uploads/hayley-archer.jpg
   - name: "Isaac Rosenthal "
     about: Isaac is a PhD student in the School for the Environment at University of
       Massachusetts Boston. He was connected to Dr. Simon through their mutual
       work on citizen science at The Zooniverse, where they developed classroom
-      curricula to pair with online citizen science projects. Much of Isaac’s
-      research focuses on the intersection of natural and human systems. He
-      tries to leverage natural history, social factors, and modern analytical
-      techniques to learn about global change. In addition to his work with Dr.
-      Simon, he is also a trail guide and an AAUS certified diver with
-      contributions to many long term academic and citizen science field
-      monitoring projects.
+      curricula to pair with **online citizen science projects.** Much of
+      Isaac’s research focuses on the **intersection of natural and human
+      systems.** He tries to leverage natural history, social factors, and
+      modern analytical techniques to learn about global change. In addition to
+      his work with Dr. Simon, he is also a trail guide and an AAUS certified
+      diver with contributions to many long term academic and citizen science
+      field monitoring projects.
     photo: /uploads/1517462038011.jpg
 ---
