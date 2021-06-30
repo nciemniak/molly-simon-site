@@ -18,4 +18,5 @@ about_body: I received my Bachelor's Degree in Geophysical Sciences from the
   courses. I also develop active learning materials designed to engage students
   in critical thinking that promotes a level of understanding beyond rote
   memorization.
+cv: /uploads/temp-cv-file.docx
 ---
