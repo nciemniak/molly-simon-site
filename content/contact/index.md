@@ -1,11 +1,14 @@
 ---
 type: pages
 layout: contact
-page_text: Dictum **non consectetur** a erat nam at lectus urna. Libero nunc
-  consequat interdum varius sit amet mattis vulputate.
+page_text: If you have any questions, requests for curricular materials, are
+  interested in collaboration, or would like to join my research group, please
+  feel free to contact me.
 email: molly.n.simon@asu.edu
-phone: 123-456-7789
+phone: 480-965-9292
 address: |-
-  123 Main Street\
-  City, AZ 77777
+  Arizona State University\
+  Physical Sciences Center - F Wing \
+  550 E. Tyler Mall\
+  Tempe, AZ 85281
 ---
