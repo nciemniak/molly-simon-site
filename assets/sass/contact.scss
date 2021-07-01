@@ -2,6 +2,11 @@
   max-width: 900px;
 }
 
+#contact-section .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 #contact-text {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -40,8 +45,12 @@
   top: 6px;
 }
 
+#map-icon-cell {
+  vertical-align: top;
+}
+
 #map-icon {
-  top: -11px;
+  top: 5px;
 }
 
 // Bootstrap L
