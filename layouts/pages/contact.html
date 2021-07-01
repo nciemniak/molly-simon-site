@@ -19,7 +19,7 @@
             <table>
               <tr>
                 <td><img id="phone-icon" class="contact-icon" src="/svg/phone-icon.svg"></td>
-                <td>{{ .Params.phone }}</td>
+                <td><a id="phone-link" href='tel:{{ .Params.phone | replaceRE "[^1234567890]" "" }}'>{{ .Params.phone }}</a></td>
               </tr>
               <tr>
                 <td id="map-icon-cell"><img id="map-icon" class="contact-icon" src="/svg/map-icon.svg"></td>

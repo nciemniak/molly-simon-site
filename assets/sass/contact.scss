@@ -1,5 +1,6 @@
 #contact-section {
   max-width: 900px;
+  margin-bottom: 140px;
 }
 
 #contact-section .container {
@@ -22,6 +23,10 @@
 }
 
 #secondary-contact-info {
+  color: $color-text-dark;
+}
+
+#phone-link {
   color: $color-text-dark;
 }
 
@@ -55,6 +60,10 @@
 
 // Bootstrap L
 @media (min-width: 992px) {
+  #contact-section {
+    margin-bottom: 180px;
+  }
+
   #secondary-contact-info {
     margin-left: 70px;
   }
