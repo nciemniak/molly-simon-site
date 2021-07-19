@@ -11,3 +11,9 @@ type: pages
 layout: about
 ```
 Any additional content pages added to the site should match this pattern.
+
+## Icons
+* [Space and Planets icon set](https://www.iconfinder.com/iconsets/space-and-planets)
+* [Font Awesome icons](https://fontawesome.com/)
+
+When adding additional icons, the `stroke` and `stroke-width` property may need to be altered directly within the svg file in order to change the color and stroke width.
