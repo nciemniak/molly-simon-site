@@ -8,7 +8,6 @@ teaching_body: Rhoncus est pellentesque elit ullam corper dignissim cras
   Nisi porta lorem mollis aliquam ut porttitor leo a. Sed egestas egestas
   fringilla phasellus faucibus scelerisque eleifend donec. Turpis egestas sed
   tempus urna et pharetra pharetra massa massa. Sed viverra ipsum nunc aliquet
-  bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo.
-  Etiam sit amet nisl purus in.
-url: https://isearch.asu.edu/profile/3725533
+  bibendum enim. Sed velit dignissim sodales ut eu sem integer vitae justo. Etiam sit amet nisl purus in.
+course_page_url: 'https://isearch.asu.edu/profile/3725533'
 ---
