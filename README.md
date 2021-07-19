@@ -13,6 +13,7 @@ layout: about
 Any additional content pages added to the site should match this pattern.
 
 ## Icons
+Icons used:
 * [Space and Planets icon set](https://www.iconfinder.com/iconsets/space-and-planets)
 * [Font Awesome icons](https://fontawesome.com/)
 
