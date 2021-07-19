@@ -16,6 +16,9 @@ layout: about
 Any additional content pages added to the site should match this pattern.
 
 ## Design
+### Text Highlights
+To make a word or phrase show up in gold on the site, make that word/phrase bold in the CMS. Note that this is not enabled for most section titles.
+
 ### Icons
 Icons used:
 * [Space and Planets icon set](https://www.iconfinder.com/iconsets/space-and-planets)
