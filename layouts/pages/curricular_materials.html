@@ -80,6 +80,46 @@
         {{ end }}
       </div>
     </div>
+
+    {{ if gt (len .Params.links) 4 }}
+    <div class="row">
+      <div class="col-md-6">
+        {{ with (index .Params.links 4) }}
+        {{ if .coming_soon }}
+        <div class="card left coming-soon">
+        {{ else }}
+        <div class="card left" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square gold-color-background">
+            <img id="universe-icon" class="card-icon" src="/svg/jupiter-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+
+      {{ if gt (len .Params.links) 5 }}
+      <div class="col-md-6">
+        {{ with (index .Params.links 5) }}
+        {{ if .coming_soon }}
+        <div class="card right coming-soon">
+        {{ else }}
+        <div class="card right" onclick="location.href='{{ .url }}'">
+        {{ end }}
+          <div class="icon-square lavender-color-background">
+            <img id="solar-system-icon" class="card-icon" src="/svg/jupiter-icon.svg">
+          </div>
+          <h2 class="card-header">{{ .link_name }}</h2>
+          <p>{{ .description }}</p>
+          <div class="coming-soon-badge"><span class="coming-soon-text">COMING SOON</span></div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </div>
 
