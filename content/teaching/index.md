@@ -27,6 +27,9 @@ teaching_body: >-
 
   students in the process of making their own assertions about scientific claims using evidence-based
 
-  reasoning, while at the same time reinforcing recently acquired content knowledge.
+  reasoning, while at the same time reinforcing recently acquired content knowledge. 
+
+
+  I try to utilize as many of these activities as possible in my courses.
 course_page_url: https://isearch.asu.edu/profile/3725533
 ---
