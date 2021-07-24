@@ -1,9 +1,9 @@
 ---
 type: pages
 layout: research
-research_intro: My focuses predominantly on utilizing citizen science as a tool
-  to bring authentic data-rich experiences to undergraduates, both in person and
-  online.
+research_intro: My research focuses predominantly on utilizing citizen science
+  as a tool to bring authentic data-rich experiences to undergraduates, both in
+  person and online.
 research_body: >-
   I began my career as a planetary scientist, focusing predominantly on planet
   formation and the role of winds in clearing protoplanetary material. Later in
