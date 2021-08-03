@@ -11,9 +11,9 @@
     <h2 id="research-intro">
       {{ .Params.research_intro | markdownify }}
     </h2>
-    <p id="research-body">
+    <div id="research-body">
       {{ .Params.research_body | markdownify }}
-    </p>
+    </div>
   </div>
 
   <div class="tabset">
@@ -32,9 +32,9 @@
         {{ range .Params.current_projects }}
         <img class="research-figure" src="{{ .figure }}">
         <h2 class="research-header">{{ .project_title | upper }}</h2>
-        <p class="research-content">
+        <div class="project-content">
           {{ .description | markdownify }}
-        </p>
+        </div>
         {{ end }}
       </section>
 
@@ -42,9 +42,9 @@
         {{ range .Params.past_projects }}
         <img class="research-figure" src="{{ .figure }}">
         <h2 class="research-header">{{ .project_title | upper }}</h2>
-        <p class="research-content">
+        <div class="project-content">
           {{ .description | markdownify }}
-        </p>
+        </div>
         {{ end }}
       </section>
 

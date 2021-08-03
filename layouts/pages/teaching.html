@@ -11,9 +11,9 @@
   <h2 class="content-intro">
     {{ .Params.teaching_intro | markdownify }}
   </h2>
-  <p class="content-body">
+  <div class="content-body">
     {{ .Params.teaching_body | markdownify }}
-  </p>
+  </div>
   <button class="content-page-button" type="button" onclick="location.href='{{ .Params.course_page_url }}'">VIEW COURSES</button>
 </div>
 
